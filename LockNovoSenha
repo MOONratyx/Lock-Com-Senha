@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
 	Icon = "rbxassetid://8474473983",
 	LoadingTitle = "🔒 Lock",
 	LoadingSubtitle = "By: Moonratyx",
-	Theme = "Amethyst",
+	Theme = "Default",
 	ToggleUIKeybind = "K",
 
 	ConfigurationSaving = {
@@ -28,17 +28,6 @@ local Window = Rayfield:CreateWindow({
 		Invite = "https://discord.gg/SMTxgfWP8x",
 		RememberJoins = true
 	},
-
-	KeySystem = true,
-	KeySettings = {
-		Title = "🔑",
-		Subtitle = "Key System",
-		Note = "Join the Discord server to get a key.", 
-		FileName = "Key",
-		SaveKey = false, 
-		GrabKeyFromSite = false, 
-		Key = {"MoonratyxKing"}
-	}
 })
 
 local MainTab = Window:CreateTab("Config", '137076008922084')
