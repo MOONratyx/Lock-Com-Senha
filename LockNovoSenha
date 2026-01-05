@@ -22,12 +22,6 @@ local Window = Rayfield:CreateWindow({
 		FolderName = "FOVLock",
 		FileName = "Config"
 	},
-	
-	Discord = {
-		Enabled = true,
-		Invite = "https://discord.gg/SMTxgfWP8x",
-		RememberJoins = true
-	},
 })
 
 local MainTab = Window:CreateTab("Config", '137076008922084')
